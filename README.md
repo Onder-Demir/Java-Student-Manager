@@ -1,118 +1,125 @@
-🇩🇪 Java Fakultät – Rekursive und Iterative Faktoriell-Berechnung
+# 🇩🇪 Kiste OOP – Objektorientierte Box-Simulation
 
-Dieses Projekt zeigt, wie man die Fakultät (n!) in Java mit zwei unterschiedlichen Methoden berechnet:
+Dieses Projekt zeigt eine einfache objektorientierte Simulation einer **Kiste (Box)** in Java. Es wurde im Rahmen des Wirtschaftsinformatik-Studiums (THM) erstellt und dient zur Übung grundlegender OOP-Konzepte.
 
-Rekursiv (mit Selbstaufrufen einer Methode)
+---
 
-Iterativ (mit for- und while-Schleifen)
+## 🔍 Funktionen
 
-Das Ziel ist es, Grundkonzepte wie Rekursion, Schleifen, Algorithmendesign und Laufzeitunterschiede einfach darzustellen.
+* Klasse **Kiste** mit Attributen: Länge, Breite, Höhe
+* Konstruktor zur Initialisierung
+* Methoden zur Volumenberechnung
+* Methoden zur Ausgabe von Informationen
+* Saubere Struktur für Studierende und Java-Einsteiger
 
-🔍 Funktionen
+---
 
-Rekursive Berechnung von n!
+## 📂 Projektstruktur
 
-Iterative Berechnung mit for
-
-Iterative Berechnung mit while
-
-Saubere Konsolenausgabe
-
-Einfache, verständliche Strukturen für Anfänger und Studierende
-
-📂 Projektstruktur
+```
 src/
+ ├── Kiste.java
  └── Main.java
 .idea/
 .gitignore
 2025_10_28.iml
+README.md
+```
 
-▶ Ausführung (Run)
+---
+
+## ▶ Ausführung (Run)
 
 In IntelliJ IDEA:
 
-Projekt öffnen
+1. Projekt öffnen
+2. `Main.java` starten
 
-Main.java starten
+Beispielausgabe:
 
-Ausgabe erscheint z. B. so:
+```
+Volumen der Kiste: 6000
+```
 
-rekursiv:       120
-iterativ (for): 120
-iterativ (while): 120
+---
 
-🎓 Lernziele
+## 🎓 Lernziele
 
 Dieses Projekt hilft beim Verständnis von:
 
-Rekursion (Basisfall + Rekursionsschritt)
+* Klassen und Objekten
+* Attributen und Methoden
+* Konstruktorlogik
+* Grundprinzipien der objektorientierten Modellierung
+* Strukturierung kleiner Java-Projekte
 
-Stack-Mechanismus bei Methodenaufrufen
+---
 
-Iterativen Algorithmen
+# 🇬🇧 Kiste OOP – Object-Oriented Box Simulation
 
-Zeitkomplexität: Rekursiv vs. Iterativ
+This project demonstrates a simple object-oriented simulation of a **Box (Kiste)** in Java. It was created as part of the Business Informatics (THM) study program and helps practice essential OOP concepts.
 
-Sauberer Methodenstruktur in Java
+---
 
-🇬🇧 Java Factorial Calculation — Recursive & Iterative
+## 🔍 Features
 
-This project demonstrates how to calculate the factorial (n!) in Java using two different approaches:
+* **Kiste** class with attributes: length, width, height
+* Constructor for initialization
+* Method to calculate box volume
+* Method to print box information
+* Beginner-friendly project structure
 
-Recursive (using self-calling methods)
+---
 
-Iterative (using for and while loops)
+## 📂 Project Structure
 
-The goal is to provide simple, educational examples for programming students.
-
-🔍 Features
-
-Recursive factorial method
-
-Iterative factorial method (for-loop)
-
-Iterative factorial method (while-loop)
-
-Clear and readable console output
-
-Beginner-friendly code structure
-
-📂 Project Structure
+```
 src/
+ ├── Kiste.java
  └── Main.java
 .idea/
 .gitignore
 2025_10_28.iml
+README.md
+```
 
-▶ How to Run
+---
+
+## ▶ How to Run
 
 Using IntelliJ IDEA:
 
-Open the project
+1. Open the project
+2. Run `Main.java`
 
-Run Main.java
+Example output:
 
-Expected output:
+```
+Box volume: 6000
+```
 
-rekursiv:       120
-iterativ (for): 120
-iterativ (while): 120
+---
 
-🎓 Learning Goals
+## 🎓 Learning Goals
 
 This project helps you understand:
 
-Recursion (base case + recursive step)
+* Classes and objects
+* Attributes & methods
+* Constructor logic
+* Basic principles of OOP modeling
+* How to structure small Java projects
 
-How the call stack works
+---
 
-Loop-based algorithm design
+## 👤 Author / Autor
 
-Time complexity differences
+**Önder Demir**
+Bachelor Student – Wirtschaftsinformatik (THM)
 
-Writing clean method structures in Java
+---
 
-📄 License
+## 📄 License
 
 Dieses Projekt ist frei nutzbar für Lernzwecke.
 This project is free to use for educational purposes.
