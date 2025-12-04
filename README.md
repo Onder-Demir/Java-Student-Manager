@@ -1,125 +1,178 @@
-# 🇩🇪 Kiste OOP – Objektorientierte Box-Simulation
+🇩🇪 Java Student Manager – Konsolenbasierte OOP-Anwendung
 
-Dieses Projekt zeigt eine einfache objektorientierte Simulation einer **Kiste (Box)** in Java. Es wurde im Rahmen des Wirtschaftsinformatik-Studiums (THM) erstellt und dient zur Übung grundlegender OOP-Konzepte.
+Diese Java-Anwendung demonstriert eine einfache Studentenverwaltung mithilfe der objektorientierten Programmierung (OOP).
+Benutzer können über das Konsolenmenü:
 
----
+✔ Studenten hinzufügen
 
-## 🔍 Funktionen
+✔ Alle Studenten auflisten
 
-* Klasse **Kiste** mit Attributen: Länge, Breite, Höhe
-* Konstruktor zur Initialisierung
-* Methoden zur Volumenberechnung
-* Methoden zur Ausgabe von Informationen
-* Saubere Struktur für Studierende und Java-Einsteiger
+✔ Studenten nach ID löschen
 
----
+Das Projekt wurde im Rahmen des Wirtschaftsinformatik-Studiums (THM) erstellt und vertieft grundlegende OOP-Konzepte wie Klassen, Objekte, Kapselung und Listenverwaltung.
 
-## 📂 Projektstruktur
+🔍 Funktionen
+Klasse Student
 
-```
+Attribute: id, name, age
+
+Getter/Setter
+
+toString() für Konsolenausgabe
+
+Klasse StudentManager
+
+Liste aller Studenten (ArrayList<Student>)
+
+Methoden:
+
+addStudent()
+
+listStudents()
+
+removeStudentById()
+
+Klasse Main
+
+Konsolenmenü mittels Scanner
+
+Benutzerinteraktion
+
+Programmlogik
+
+📂 Projektstruktur
 src/
- ├── Kiste.java
- └── Main.java
+ ├── Student.java          // Datenklasse (Model)
+ ├── StudentManager.java   // Verwaltung / Business-Logic
+ └── Main.java             // Menü, Scanner und Programmlauf
+
 .idea/
 .gitignore
 2025_10_28.iml
 README.md
-```
 
----
-
-## ▶ Ausführung (Run)
+▶ Ausführen (Run)
 
 In IntelliJ IDEA:
 
-1. Projekt öffnen
-2. `Main.java` starten
+Projekt öffnen
 
-Beispielausgabe:
+Main.java starten
 
-```
-Volumen der Kiste: 6000
-```
+Konsolenmenü erscheint:
 
----
+--- Student Manager ---
+1. Add student
+2. List students
+3. Remove student
+0. Exit
+Choice:
 
-## 🎓 Lernziele
+🎓 Lernziele
 
-Dieses Projekt hilft beim Verständnis von:
+Dieses Projekt vermittelt:
 
-* Klassen und Objekten
-* Attributen und Methoden
-* Konstruktorlogik
-* Grundprinzipien der objektorientierten Modellierung
-* Strukturierung kleiner Java-Projekte
+Klassen & Objekte
 
----
+Methoden & Datenkapselung
 
-# 🇬🇧 Kiste OOP – Object-Oriented Box Simulation
+Umgang mit ArrayList
 
-This project demonstrates a simple object-oriented simulation of a **Box (Kiste)** in Java. It was created as part of the Business Informatics (THM) study program and helps practice essential OOP concepts.
+Benutzerinteraktion via Konsole
 
----
+Strukturierung kleiner Java-OOP-Projekte
 
-## 🔍 Features
+Perfekt für Einsteiger, Übungsblätter und THM-WInfo-Studierende.
 
-* **Kiste** class with attributes: length, width, height
-* Constructor for initialization
-* Method to calculate box volume
-* Method to print box information
-* Beginner-friendly project structure
+<br>
+🇬🇧 Java Student Manager – Console-Based OOP Application
 
----
+This Java project demonstrates a simple student management system using object-oriented programming (OOP).
+Users can perform the following actions via a console menu:
 
-## 📂 Project Structure
+✔ Add new students
 
-```
+✔ List all students
+
+✔ Remove students by ID
+
+The project is designed to strengthen OOP fundamentals for computer science & business informatics students.
+
+🔍 Features
+Student class
+
+Fields: id, name, age
+
+Getters & setters
+
+Custom toString()
+
+StudentManager class
+
+Manages a list of students (ArrayList<Student>)
+
+Methods:
+
+addStudent()
+
+listStudents()
+
+removeStudentById()
+
+Main class
+
+Scanner-based console menu
+
+Program loop and user interaction
+
+📂 Project Structure
 src/
- ├── Kiste.java
+ ├── Student.java
+ ├── StudentManager.java
  └── Main.java
+
 .idea/
 .gitignore
 2025_10_28.iml
 README.md
-```
 
----
+▶ How to Run
 
-## ▶ How to Run
+In IntelliJ IDEA:
 
-Using IntelliJ IDEA:
+Open the project
 
-1. Open the project
-2. Run `Main.java`
+Run Main.java
 
-Example output:
+Example console menu:
 
-```
-Box volume: 6000
-```
+--- Student Manager ---
+1. Add student
+2. List students
+3. Remove student
+0. Exit
+Choice:
 
----
+🎓 Learning Goals
 
-## 🎓 Learning Goals
+This project helps beginners practice:
 
-This project helps you understand:
+Classes & objects
 
-* Classes and objects
-* Attributes & methods
-* Constructor logic
-* Basic principles of OOP modeling
-* How to structure small Java projects
+Encapsulation
 
----
+Using ArrayList
 
-## 👤 Author / Autor
+Console input/output
 
-**Önder Demir**
+Structuring small OOP applications
+
+👤 Author / Autor
+
+Önder Demir
 Bachelor Student – Wirtschaftsinformatik (THM)
 
----
-
-## 📄 License
+📄 License
 
 Dieses Projekt ist frei nutzbar für Lernzwecke.
 This project is free to use for educational purposes.
